@@ -1,0 +1,22 @@
+[
+  "tests/test_anomaly_detector.py::test_train_and_predict",
+  "tests/test_anomaly_detector.py::test_untrained_fallback",
+  "tests/test_api_endpoints.py::test_create_device",
+  "tests/test_api_endpoints.py::test_list_devices",
+  "tests/test_api_endpoints.py::test_system_health",
+  "tests/test_api_endpoints.py::test_telemetry_ingest_and_alert",
+  "tests/test_api_endpoints.py::test_user_registration_and_login",
+  "tests/test_decision_engine.py::test_evaluate_threat_critical",
+  "tests/test_decision_engine.py::test_evaluate_threat_disarmed",
+  "tests/test_decision_engine.py::test_false_positive_damping",
+  "tests/test_error_boundaries.py::test_404_boundary",
+  "tests/test_error_boundaries.py::test_telemetry_corrupt_non_numeric_fields",
+  "tests/test_error_boundaries.py::test_telemetry_missing_mac",
+  "tests/test_error_boundaries.py::test_telemetry_unregistered_mac",
+  "tests/test_preprocessor.py::test_clean_telemetry_missing_key",
+  "tests/test_preprocessor.py::test_clean_telemetry_nan_rejection",
+  "tests/test_preprocessor.py::test_clean_telemetry_out_of_bounds",
+  "tests/test_preprocessor.py::test_clean_telemetry_valid",
+  "tests/test_preprocessor.py::test_compute_magnitude",
+  "tests/test_preprocessor.py::test_extract_features"
+]
